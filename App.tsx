@@ -1,3 +1,4 @@
+// import { AppRegistry } from "react-native";
 import { TailwindProvider } from "tailwindcss-react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -11,6 +12,10 @@ import { LogBox } from "react-native";
 import EditTripForm from "./src/screens/EditTripForm";
 import NewEventForm from "./src/screens/NewEventForm";
 import EventDetails from "./src/screens/EventDetails";
+import SignIn from "./src/screens/SignIn";
+import SignUp from "./src/screens/SignUp";
+
+// AppRegistry.registerComponent("main", () => App);
 
 const Stack = createNativeStackNavigator();
 LogBox.ignoreAllLogs();
@@ -21,7 +26,8 @@ export default function App() {
       <TailwindProvider>
         <NavigationContainer>
           <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="Login" component={Index} />
+            <Stack.Screen name="Login" component={SignIn} />
+            <Stack.Screen name="SignUp" component={SignUp} />
             <Stack.Screen name="MainApp" component={Index} />
             <Stack.Screen name="TripDetails" component={TripDetails} />
             <Stack.Screen name="NewTripForm" component={NewTripForm} />
