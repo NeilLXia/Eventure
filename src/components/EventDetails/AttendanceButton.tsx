@@ -56,6 +56,12 @@ const AttendanceButton = ({ isParticipant }: { isParticipant: boolean }) => {
     disableButton2 = false;
     newAttending = "joining";
   }
+  if (attending === "declined") {
+    buttonStyle =
+      "w-[175px] h-[50px] bg-green-600 border-2 border-slate-700 items-center rounded-[8px] justify-center";
+    buttonText = "Join";
+    newAttending = "joining";
+  }
 
   return (
     <View className="flex-row p-4 justify-evenly">

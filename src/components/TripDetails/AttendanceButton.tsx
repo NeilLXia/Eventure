@@ -40,7 +40,7 @@ const AttendanceButton = ({ isOrganizer }) => {
     buttonStyle =
       "w-[175px] h-[50px] bg-red-600 border-2 border-slate-700 items-center rounded-[8px] justify-center";
     buttonText = "Unrequest";
-    newAttending = "declined";
+    newAttending = "";
   } else if (attending === "invited") {
     buttonStyle =
       "w-[175px] h-[50px] bg-green-600 border-2 border-slate-700 items-center rounded-[8px] justify-center";
@@ -48,6 +48,11 @@ const AttendanceButton = ({ isOrganizer }) => {
     buttonStyle2 =
       "w-[175px] h-[50px] bg-red-600 border-2 border-slate-700 items-center rounded-[8px] justify-center";
     disableButton2 = false;
+    newAttending = "joining";
+  } else if (attending === "declined") {
+    buttonStyle =
+      "w-[175px] h-[50px] bg-green-600 border-2 border-slate-700 items-center rounded-[8px] justify-center";
+    buttonText = "Join";
     newAttending = "joining";
   } else if (isOrganizer) {
     buttonStyle =

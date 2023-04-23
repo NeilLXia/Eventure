@@ -13,19 +13,21 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
       "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "bundleIdentifier": "com.anonymous.Tabisho"
     },
     "android": {
       "adaptiveIcon": {
+        "googleServicesFile": "./google-services.json",
         "foregroundImage": "./src/assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
-        "googleServicesFile": "./google-services.json"
-      }
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.Tabisho"
     },
     "web": {
       "favicon": "./src/assets/favicon.png"
     },
-    "plugins": []
+    "plugins": ["@react-native-google-signin/google-signin"]
   }
 }

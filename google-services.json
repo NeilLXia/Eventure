@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "704726588529",
+    "project_id": "tabisho",
+    "storage_bucket": "tabisho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704726588529:android:e4da6a54562fed3a74cfd0",
+        "android_client_info": {
+          "package_name": "com.anonymous.Tabisho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704726588529-khprq8oa3mlmtqfdtrotq9nocl6k7si0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSHoEYmSolquH3bDFGF7ZoT0J3HZnmbvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704726588529-khprq8oa3mlmtqfdtrotq9nocl6k7si0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "704726588529-4agubfqol9jpelvfuug894jq197qidsh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.anonymous.Tabisho"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

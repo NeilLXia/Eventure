@@ -79,7 +79,7 @@ const SignUp = ({ navigation }) => {
           <View className="flex-row w-full h-[50px] items-center px-4 rounded-[4px] bg-white border-[1px] border-slate-400">
             <TextInput
               placeholder="..."
-              autoCapitalize={false}
+              autoCapitalize="none"
               keyboardType="default"
               className="flex-1"
               onChangeText={(email) => setEmail(email)}
@@ -91,7 +91,7 @@ const SignUp = ({ navigation }) => {
           <View className="flex-row w-full h-[50px] items-center px-4 rounded-[4px] bg-white border-[1px] border-slate-400">
             <TextInput
               placeholder="..."
-              autoCapitalize={false}
+              autoCapitalize="none"
               secureTextEntry={true}
               keyboardType="default"
               className="flex-1"
@@ -104,7 +104,7 @@ const SignUp = ({ navigation }) => {
           <View className="flex-row w-full h-[50px] items-center px-4 rounded-[4px] bg-white border-[1px] border-slate-400">
             <TextInput
               placeholder="..."
-              autoCapitalize={false}
+              autoCapitalize="none"
               secureTextEntry={true}
               keyboardType="default"
               className="flex-1"

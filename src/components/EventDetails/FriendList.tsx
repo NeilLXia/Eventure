@@ -24,6 +24,9 @@ const FriendList = ({ users }: { users: any }) => {
       return -(attendingKey[a.attending] - attendingKey[b.attending]);
     })
     .map((user: any, index: number) => {
+      if (user.attending === "") {
+        return;
+      }
       return (
         <FriendTile
           key={index}
