@@ -30,7 +30,7 @@ const firebaseConfig = {
   persistence: true,
 };
 
-// firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 GoogleSignin.configure({
   webClientId:
