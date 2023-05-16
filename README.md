@@ -1,6 +1,6 @@
-# Adidae
+# Tabisho
 
-A modernized e-commerce site built for an optimal user browsing experience.
+This project is a trip-planning application that allows users to manage attendees and trip-details.
 
 ## Author
 
@@ -13,10 +13,6 @@ This project was created by:
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)![Tailwind](https://img.shields.io/badge/Tailwind-1572B6?style=for-the-badge&logo=tailwindcss)
 
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![NodeJS](https://img.shields.io/badge/Node.js-154a10?style=for-the-badge&logo=node.js)![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux)![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-## Project Summary
-
-This project is a trip-planning application that allows users to manage attendees and trip-details.
 
 ## Key Features
 
