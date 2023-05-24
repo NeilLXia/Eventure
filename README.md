@@ -1,6 +1,6 @@
 # Tabisho
 
-This project is a trip-planning application that allows users to manage attendees and trip-details.
+AirBnB trips meets Facebook. This project is a trip-planning application that allows users to manage attendees and trip-details.
 
 ## Author
 
